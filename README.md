@@ -2,17 +2,17 @@
 
 This is a Test harness for core that can then be reused for the many apps.
 
-Many of these aspects are not in the main client but some are in there,
-but are mixed up and "spread" into the code base making the code highly coupled,
-and hence preventing us to build more applications.
+The main client repo has gotton rotten by intermixing the Architecture and the GUI / Business Logic, making the code highly coupled, preventing us to build more applications.
 
-
+## Architetcure
 Architecturally its important to strive for abstractions to enable builds apps on top.
-IOC  (Inversion of Control ), Dependency injection & Factory Patterns help sometimes so be aware of this.
-
-Here is one example: https://github.com/jonsamwell/flutter_simple_dependency_injection
 
 
+IOC (Inversion of Control ), Dependency injection (DI) & Factory Patterns help sometimes so be aware of this.
+
+Here is a DI example: https://github.com/jonsamwell/flutter_simple_dependency_injection
+
+## Functionality
 
 This has core things that all our apps need:
 
@@ -28,7 +28,7 @@ This has core things that all our apps need:
 
 - Nav & Settings
 
-It also has tooling around many of these cross cutting things.
+
 
 ## I18n
 
@@ -79,5 +79,5 @@ We prefer the Google Chrome Duet pattern, in which all Nav buttons are at the bo
 so that its easy to reach from a Mobile.
 
 [demo]: chrome-duet.png "Screenshot of Chrome Duet"
-![](https://github.com/winwisely99/testharness/blob/master/chrome-duet.gif)
+![](https://github.com/winwisely99/testharness/blob/master/chrome-duet.png)
 
