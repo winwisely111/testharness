@@ -69,9 +69,12 @@ Needs to work on Web, Desktop and Mobile.
 
 This just needs to be a Markdown driven GUI.
 
-The folders of the Markdown determines the Navigation of the GUI. One to One.
+The folders of the Markdown determines the Navigation of the GUI. One to One mapping.
 
-The markdown can be assets or pulled from a Server.
+The markdown live in the assets or pulled from a Server.
+
+
+
 
 ## Nav & Settings
 
@@ -80,4 +83,17 @@ so that its easy to reach from a Mobile.
 
 [demo]: chrome-duet.png "Screenshot of Chrome Duet"
 ![](https://github.com/winwisely99/testharness/blob/master/chrome-duet.png)
+
+- Apps
+	- Opens a Drawer with all App links
+- Home
+	- obvious
+- Search
+	- Opens a Search screen. This will be a facet search system.
+- Share
+	- Every Screen can be shared because its really just a Route.
+	- Mobiles have this button as part of the OS itself
+- Print
+	- Every screen that is Printable shows this.
+	- Mobiles have this button  as part of the OS itself
 
